@@ -6,7 +6,6 @@
     width:1440px;
     padding: 0;
     margin: 0;
-    font-size: 100%;
     box-sizing: border-box;
      
 
@@ -32,6 +31,7 @@
 
  header{
   height: 213vh;
+  position: relative;
  }
  
  header img{
@@ -40,8 +40,7 @@
   top: 50%;
   left: 50%;
   position: absolute;
-  transform: translate(-83%, -0%);
-
+  transform: translate(-50%, -50%);
  }
 
  header article{
@@ -87,13 +86,7 @@ section:nth-of-type(odd) img{
   left: 0px
 }
 
-section article{
-  width: 1440px;
-  height: 900px;
-  position: absolute;
-}
-
-section p, h2 {
+section p, h2, i {
   position: absolute;
   width: auto;
   left: 220px;
@@ -102,15 +95,12 @@ section p, h2 {
 section i{
   color: #666;
   top: 256px;
-  left: 220px;
-  position: absolute;
 }
 
 section:nth-of-type(odd) i{
   color: #9e9e9e;
   top: 217px;
   left: 220px;
-  position: absolute;
 }
 
 section p:nth-of-type(1){
@@ -204,7 +194,7 @@ section:nth-of-type(5) p:nth-of-type(1){
 section:nth-of-type(5) p:nth-of-type(2){
   width: 39vw;
   top: 491px;
-  left: 595px;
+  left: 610px;
   font-size: 22px;
   line-height: 180%;
   letter-spacing: 0.5px;
@@ -214,7 +204,7 @@ section:nth-of-type(5) p:nth-of-type(2){
 section:nth-of-type(5) a{
   border: none;
   top: 761px;
-  left: 575px;
+  left: 590px;
   font-size: 60px;
   color: #fff;
   font-family: 'Work Sans', sans-serif;
@@ -253,10 +243,7 @@ footer a:hover{
 }
 
 footer i{
-  margin-top: 300px;
-  text-align: center;
+  top: 1300px;
+  left: 720px;
 }
-
-
-
 
